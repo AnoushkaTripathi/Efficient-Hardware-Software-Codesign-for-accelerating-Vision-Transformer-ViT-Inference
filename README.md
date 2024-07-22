@@ -2,6 +2,19 @@
 
 
 
+## Project Description
+
+This project aims to optimize the inference of Vision Transformers (ViTs) on edge IoT devices using a hybrid hardware-software co-design approach. By leveraging the VEGA AS1061 processor, we address the challenges of high area and power consumption typically associated with GPUs and fully hardware-based implementations. Our solution focuses on accelerating ViT inference while minimizing hardware overhead, providing an efficient and scalable method for malware detection on edge devices.
+
+Key highlights of our project include:
+- Implementation of a Vision Transformer optimized for edge devices.
+- Efficient parallelization and pipelining of the multi-head attention module.
+- Utilization of the AXI interface for seamless integration with the VEGA AS1061 processor.
+- Detailed analysis and testing on FPGA to evaluate performance improvements and hardware utilization.
+
+This repository contains the source code, documentation, and design files necessary for replicating our results and exploring further enhancements.
+
+
 ![image](https://github.com/user-attachments/assets/701de01b-61c4-4f5f-9076-6cb38da17f52)
 
 ## Introduction
