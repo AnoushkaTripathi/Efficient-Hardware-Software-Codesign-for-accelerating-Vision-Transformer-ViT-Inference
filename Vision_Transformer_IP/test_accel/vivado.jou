@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Jul 12 08:08:05 2024
+# Process ID: 5044
+# Current directory: C:/Users/anous/Downloads/fpga/fpga/test_accel
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17596 C:\Users\anous\Downloads\fpga\fpga\test_accel\test_accel.xpr
+# Log file: C:/Users/anous/Downloads/fpga/fpga/test_accel/vivado.log
+# Journal file: C:/Users/anous/Downloads/fpga/fpga/test_accel\vivado.jou
+# Running On: LAPTOP-IS81INHI, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 16803 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anous/Downloads/fpga/fpga/test_accel/test_accel.xpr
+update_compile_order -fileset sources_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:11.0 microblaze_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config { axi_intc {0} axi_periph {Enabled} cache {None} clk {New Clocking Wizard} cores {1} debug_module {Debug Only} ecc {None} local_mem {8KB} preset {None}}  [get_bd_cells microblaze_0]
