@@ -125,6 +125,9 @@ In the accelerator used for this purpose, systolic arrays have been used to impl
 
 ![image](https://github.com/user-attachments/assets/cd39d916-8c05-45fe-9978-ffd8969dbbf8)
 
+![image](https://github.com/user-attachments/assets/d924ab7b-2ec5-4439-a1df-24e1f08127e1)
+
+
 
 ## Conclusion
 
