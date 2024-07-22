@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cddcf63f-acad-4976-99b6-eb5b72f60ecf)# Efficient-Hardware-Software-Codesign-for-accelerating-Vision-Transformer-ViT-Inference
+# Efficient-Hardware-Software-Codesign-for-accelerating-Vision-Transformer-ViT-Inference
 
 
 
