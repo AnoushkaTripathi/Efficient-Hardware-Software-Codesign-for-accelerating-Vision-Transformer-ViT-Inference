@@ -122,3 +122,18 @@ In this design, we design a basic ViT accelerator (not the one utilized in the p
 
 In the accelerator used for this purpose, systolic arrays have been used to implement the transformer. The main aim of the accelerator design was to showcase the IP design using AXI interface. Note that the entire design uses the Programmable Logic portion of the Xilinx Zedboard, since MicroBlaze is a soft processor. We perform synthesis and implementation using Xilinx Vivado 2019.1. The power usage and resource utilization are shown below.
 
+
+![image](https://github.com/user-attachments/assets/cd39d916-8c05-45fe-9978-ffd8969dbbf8)
+
+
+## Conclusion
+
+In this report, we proposed a limited hardware pipeline implementation method for the ViT. The proposed design will accelerate the IP inference while limiting the additional hardware, making it suitable for edge devices. We also touched upon the background aspects of the ViT and demonstrated its execution results. We also initiated a basic ViT design and interfaced it with the Xilinx Microblaze processor. We aim to implement the discussed scheme in Stage 2 and demonstrate the superiority of our scheme when compared to pure software design.
+
+## References
+
+1. M. Wasef and N. Rafla, "Hardware implementation of Multi-Rate input SoftMax activation function," 2021 IEEE International Midwest Symposium on Circuits and Systems (MWSCAS), Lansing, MI, USA, 2021, pp. 783-786, doi: 10.1109/MWSCAS47672.2021.9531761.
+2. K. Manikantta Reddy, M. H. Vasantha, Y. B. Nithin Kumar and D. Dwivedi, "Design of Approximate Dividers for Error Tolerant Applications," 2018 IEEE 61st International Midwest Symposium on Circuits and Systems (MWSCAS), Windsor, ON, Canada, 2018, pp. 496-499, doi: 10.1109/MWSCAS.2018.8623909.
+3. Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. "Attention is all you need." Advances in neural information processing systems 30 (2017).
+4. Dosovitskiy, Alexey, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani et al. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv:2010.11929 (2020).
+5. https://github.com/gnodipac886/ViT-FPGA-TPU
